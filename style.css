@@ -1,0 +1,315 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.search-bar input {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  outline: none;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
+  position: relative;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.icon .count {
+  position: absolute;
+  top: -12px;
+  right: -10px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+.profile {
+  font-weight: bold;
+  cursor: pointer;
+  justify-content: center;
+}
+.profile img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  list-style: none;
+  display: flex;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.breadcrumb li {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb li a {
+  text-decoration: none;
+  color: #888;
+  transition: color 0.3s;
+}
+
+.breadcrumb li a:hover {
+  color: #000;
+}
+
+.breadcrumb li::after {
+  content: "›";
+  margin: 0 8px;
+  color: #aaa;
+}
+
+.breadcrumb li:last-child::after {
+  content: "";
+}
+
+.breadcrumb li:last-child a {
+  color: #000;
+  font-weight: bold;
+}
+
+/* Product */
+
+.product-container {
+  display: flex;
+  padding-top: 50px;
+  gap: 20px;
+  max-width: 95%;
+  margin: auto;
+}
+
+.image-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.thumbnail img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-image img {
+  width: 600px;
+  border-radius: 5px;
+}
+
+.product-details {
+  flex: 1;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+.rating {
+  font-size: 14px;
+  color: #555;
+}
+
+.options button {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.options .active {
+  border-color: #0047ff;
+  font-weight: bold;
+  color: #0047ff;
+}
+
+.colors {
+  display: flex;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.silver {
+  background: silver;
+}
+.red {
+  background: red;
+}
+.green {
+  background: green;
+}
+.blue {
+  background: blue;
+}
+.orange {
+  background: orange;
+}
+
+.color.active {
+  border: 2px solid black;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+}
+
+.read-more {
+  color: #0047ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cart-container {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cart,
+.shipping {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.quantity button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.total {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cart-btn,
+.store-btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.cart-btn {
+  background: #0047ff;
+  color: white;
+}
+
+.store-btn {
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  color: #0047ff;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: gray;
+  margin-top: 10px;
+}
+
+.shipping-option {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.free {
+  font-weight: bold;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.estimate {
+  color: gray;
+  font-size: 12px;
+}
+
+.specs-bottom {
+  display: flex;
+  max-width: 100%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.specs-1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+}
+.specs-2 {
+  display: grid;
+  padding-left: 50px;
+  grid-template-columns: 1fr 4fr;
+  gap: 10px;
+}
+.specs-1 .specs-2 div {
+  padding: 5px 0;
+}
