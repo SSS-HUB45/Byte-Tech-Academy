@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Byte Tech Academy</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/imac_m1.webp" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -13,7 +14,9 @@
       referrerpolicy="no-referrer"
     />
   </head>
+  <!-- Main Body Start -->
   <body>
+    <!-- Navbar Start -->
     <nav class="navbar">
       <div class="logo">tokogadget</div>
       <div class="search-bar">
@@ -34,151 +37,203 @@
         </div>
       </div>
     </nav>
+    <!-- Navbar End -->
 
-    <div>
-      <ul class="breadcrumb">
-        <li><a href="#">Beranda</a></li>
-        <li><a href="#">Komputer</a></li>
-        <li><a href="#">iMac 24-inch (M1 Pro chip, 8GB RAM)</a></li>
-      </ul>
-    </div>
+    <!-- Main Content Start -->
+    <div class="main-content">
+      <!-- Breadcrumb Start -->
+      <div>
+        <ul class="breadcrumb">
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#">Komputer</a></li>
+          <li><a href="#">iMac 24-inch (M1 Pro chip, 8GB RAM)</a></li>
+        </ul>
+      </div>
+      <!-- Breadcrumb End -->
 
-    <div class="product-container">
-      <div class="image-gallery">
-        <div class="thumbnail">
-          <img src="images/imac_m1.webp" alt="Thumbnail 1" />
-        </div>
-        <div class="thumbnail">
-          <img src="images/imac_m1_1.webp" alt="Thumbnail 2" />
-        </div>
-        <div class="thumbnail">
-          <img src="images/imac_m1.webp" alt="Thumbnail 3" />
-        </div>
-        <div class="thumbnail">
-          <img src="images/imac_m1_1.webp" alt="Thumbnail 4" />
-        </div>
-      </div>
-      <div class="main-image">
-        <img src="images/imac_m1.webp" alt="Main Product Image" />
-      </div>
-      <div class="product-details">
-        <h1>iMac 24-inch (M1 Pro chip, 8GB RAM)</h1>
-        <div class="rating">
-          ⭐⭐⭐⭐⭐ <span>(999 ulasan) • Terjual 1,182</span>
-        </div>
-        <p>Model:<strong>7-Core GPU</strong></p>
-        <div class="options">
-          <button class="active">7-Core GPU</button>
-          <button>8-Core GPU</button>
-        </div>
-        <p>Memori:<strong>256GB</strong></p>
-        <div class="options">
-          <button class="active">256GB</button>
-          <button>512GB</button>
-          <button>1TB</button>
-        </div>
-        <p>Warna:<strong>Silver</strong></p>
-        <div class="colors">
-          <span class="color silver active"></span>
-          <span class="color red"></span>
-          <span class="color green"></span>
-          <span class="color blue"></span>
-          <span class="color orange"></span>
-        </div>
-        <p class="description">
-          Anda tak pernah melihat komputer seperti ini. Dengan desain luar biasa
-          tipis berkat chip Apple M1. Layar Retina 4.5K 24 inci yang
-          menakjubkan...
-        </p>
-        <a href="#" class="read-more">Lihat Selengkapnya</a>
-      </div>
-
-      <div class="cart-container">
-        <div class="cart">
-          <h3>Atur jumlah</h3>
-          <div class="quantity">
-            <button>-</button>
-            <span>1</span>
-            <button>+</button>
+      <!-- Main Product Section Start -->
+      <div class="product-container">
+        <!-- Image Gallery Start -->
+        <div class="image-gallery">
+          <div class="thumbnail">
+            <img src="images/imac_m1.webp" alt="Thumbnail 1" />
           </div>
-          <p class="total">Total: <strong>Rp 19.800.000</strong></p>
-          <button class="cart-btn">+ Keranjang</button>
-          <button class="store-btn">Ambil di Toko</button>
-          <div class="actions">
-            <span
-              ><i class="fa-solid fa-heart"></i>
-              <strong>Favoritkan</strong></span
-            >
-            <span
-              ><i class="fa-solid fa-share-nodes"></i>
-              <strong>Bagikan</strong></span
-            >
+          <div class="thumbnail">
+            <img src="images/imac_m1_1.webp" alt="Thumbnail 2" />
+          </div>
+          <div class="thumbnail">
+            <img src="images/imac_m1.webp" alt="Thumbnail 3" />
+          </div>
+          <div class="thumbnail">
+            <img src="images/imac_m1_1.webp" alt="Thumbnail 4" />
           </div>
         </div>
+        <div class="main-image">
+          <img src="images/imac_m1.webp" alt="Main Product Image" />
+        </div>
+        <!-- Image Gallery Start -->
 
-        <div class="shipping">
-          <h3>Pilihan pengiriman</h3>
-          <p>
-            Dikirim ke
-            <strong>Depok <i class="fa-solid fa-caret-down"></i></strong>
+        <!-- Single Product Details Start -->
+        <div class="product-details">
+          <h1>iMac 24-inch (M1 Pro chip, 8GB RAM)</h1>
+          <div class="rating">
+            ⭐⭐⭐⭐⭐ <span>(999 ulasan) • Terjual 1,182</span>
+          </div>
+          <p>Model:<strong>7-Core GPU</strong></p>
+          <div class="options">
+            <button class="active">7-Core GPU</button>
+            <button>8-Core GPU</button>
+          </div>
+          <p>Memori:<strong>256GB</strong></p>
+          <div class="options">
+            <button class="active">256GB</button>
+            <button>512GB</button>
+            <button>1TB</button>
+          </div>
+          <p>Warna:<strong>Silver</strong></p>
+          <div class="color-container">
+            <div
+              class="color"
+              style="--left-color: #0b2c54; --right-color: #052b2b"
+            ></div>
+            <div
+              class="color"
+              style="--left-color: #9b1313; --right-color: #571111"
+            ></div>
+            <div
+              class="color"
+              style="--left-color: #e5e5e5; --right-color: #c4c4c4"
+              class="selected"
+            ></div>
+            <div
+              class="color"
+              style="--left-color: #e5a000; --right-color: #d08300"
+            ></div>
+            <div
+              class="color"
+              style="--left-color: #e56b30; --right-color: #b94e1f"
+            ></div>
+            <div
+              class="color"
+              style="--left-color: #1d1764; --right-color: #000060"
+            ></div>
+          </div>
+          <p class="description">
+            Anda tak pernah melihat komputer seperti ini. Dengan desain luar
+            biasa tipis <br />berkat chip Apple M1. Layar Retina 4.5K 24 inci
+            yang menghanyutkan dengan <br />lebih dari satu miliar warna yang
+            memberikan gambar besar dengan detail
           </p>
-          <div class="shipping-option">
-            <p><strong>Reguler</strong></p>
-            <p>JNE Reguler <span class="free">Gratis</span></p>
-            <p class="estimate">Estimasi tiba besok - 20 Desember</p>
+          <a href="#" class="read-more">Lihat Selengkapnya</a>
+        </div>
+        <!-- Single Product Details Start -->
+
+        <!-- First Cart Section Start -->
+        <div class="cart-container">
+          <div class="cart">
+            <div class="title">Atur jumlah</div>
+            <div class="add-to-cart">
+              <div class="label">Jumlah: <span>1</span></div>
+              <div class="quantity-selector">
+                <button>-</button>
+                <input type="text" value="1" readonly />
+                <button>+</button>
+              </div>
+            </div>
+            <p class="total">
+              Total: <strong class="total-price">Rp 19.800.000</strong>
+            </p>
+            <button class="cart-btn">+ Keranjang</button>
+            <button class="store-btn">Ambil di Toko</button>
+            <div class="actions">
+              <span
+                ><i class="fa-solid fa-heart"></i>
+                <strong>Favoritkan</strong></span
+              >
+              <span
+                ><i class="fa-solid fa-share-nodes"></i>
+                <strong>Bagikan</strong></span
+              >
+            </div>
           </div>
-          <div class="shipping-option">
-            <p><strong>Instan</strong></p>
-            <p>GoSend Bike <span class="price">Rp 110rb</span></p>
-            <p class="estimate">Estimasi tiba hari ini</p>
+          <!-- First Cart Section End -->
+
+          <!-- Second Cart Section Start -->
+          <div class="shipping">
+            <div class="shipping-border">
+              <h3>Pilihan pengiriman</h3>
+              <p>
+                Dikirim ke
+                <strong>Depok <i class="fa-solid fa-caret-down"></i></strong>
+              </p>
+            </div>
+            <div class="shipping-option">
+              <p><strong>Reguler</strong></p>
+              <p class="sub-shopping">
+                <strong>JNE Reguler</strong> <span class="free">Gratis</span>
+              </p>
+              <p class="estimate">Estimasi tiba besok - 20 <br />Desember</p>
+            </div>
+            <div class="shipping-option">
+              <p><strong>Instan</strong></p>
+              <strong>GoSend Bike <span class="price">Rp 110rb</span></strong>
+              <p class="estimate">Estimasi tiba hari ini</p>
+            </div>
+          </div>
+          <!-- Second Cart Section End -->
+        </div>
+      </div>
+      <!-- Main Product Section End -->
+
+      <!-- Product Specification Section Start -->
+      <div class="main-specs">
+        <h2>Spesifikasi</h2>
+        <div class="specs-bottom">
+          <div class="specs-1">
+            <div><strong>Brand</strong></div>
+            <div>Apple</div>
+            <div><strong>Prosesor</strong></div>
+            <div>Apple M1 Chip (CPU 8-Core, GPU 7-Core)</div>
+            <div><strong>Grafis</strong></div>
+            <div>GPU 7-core</div>
+            <div><strong>Memori</strong></div>
+            <div>Memori terintegrasi 8 GB</div>
+            <div><strong>Ukuran Layar</strong></div>
+            <div>24 inci</div>
+            <div><strong>Tipe Layar</strong></div>
+            <div>
+              Layar Retina 4.5K 24 inci<br />Resolusi 4480 x 2520 pada 218 ppi
+              dengan<br />
+              dukungan 1 miliar warna<br />Kecerahan 500 nit<br />Warna luas
+              (P3)<br />Teknologi True Tone
+            </div>
+          </div>
+          <div class="specs-2">
+            <div><strong>Kamera</strong></div>
+            <div>Kamera FaceTime HD 1080p dengan prosesor sinyal gambar M1</div>
+            <div><strong>Audio</strong></div>
+            <div>
+              Sistem enam speaker high-fidelity dengan subwoofer
+              force-cancelling<br />Suara stereo berjangkauan luas<br />Dukungan
+              untuk audio spasial saat memutar musik atau video dengan Dolby
+              Atmos<br />Deretan tiga mikrofon kualitas studio dengan SNR tinggi
+              dan pembentuk sinyal direksional
+            </div>
+            <div><strong>Papan Ketik</strong></div>
+            <div>Apple Magic Keyboard</div>
+            <div><strong>Nirkabel</strong></div>
+            <div>
+              <strong>Wi-Fi</strong>: Jaringan nirkabel Wi-Fi 6 802.11ax<br /><strong
+                >Bluetooth</strong
+              >: Teknologi nirkabel Bluetooth 5.0
+            </div>
           </div>
         </div>
       </div>
+      <!-- Product Specification Section End -->
     </div>
 
-    <div class="main-specs">
-      <h2>Spesifikasi</h2>
-      <div class="specs-bottom">
-        <div class="specs-1">
-          <div><strong>Brand</strong></div>
-          <div>Apple</div>
-          <div><strong>Prosesor</strong></div>
-          <div>Apple M1 Chip (CPU 8-Core, GPU 7-Core)</div>
-          <div><strong>Grafis</strong></div>
-          <div>GPU 7-core</div>
-          <div><strong>Memori</strong></div>
-          <div>Memori terintegrasi 8 GB</div>
-          <div><strong>Ukuran Layar</strong></div>
-          <div>24 inci</div>
-          <div><strong>Tipe Layar</strong></div>
-          <div>
-            Layar Retina 4.5K 24 inci<br />Resolusi 4480 x 2520 pada 218 ppi
-            dengan<br />
-            dukungan 1 miliar warna<br />Kecerahan 500 nit<br />Warna luas
-            (P3)<br />Teknologi True Tone
-          </div>
-        </div>
-        <div class="specs-2">
-          <div><strong>Kamera</strong></div>
-          <div>Kamera FaceTime HD 1080p dengan prosesor sinyal gambar M1</div>
-          <div><strong>Audio</strong></div>
-          <div>
-            Sistem enam speaker high-fidelity dengan subwoofer
-            force-cancelling<br />Suara stereo berjangkauan luas<br />Dukungan
-            untuk audio spasial saat memutar musik atau video dengan Dolby
-            Atmos<br />Deretan tiga mikrofon kualitas studio dengan SNR tinggi
-            dan pembentuk sinyal direksional
-          </div>
-          <div><strong>Papan Ketik</strong></div>
-          <div>Apple Magic Keyboard</div>
-          <div><strong>Nirkabel</strong></div>
-          <div>
-            <strong>Wi-Fi</strong>: Jaringan nirkabel Wi-Fi 6 802.11ax<br /><strong
-              >Bluetooth</strong
-            >: Teknologi nirkabel Bluetooth 5.0
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- Main Content End -->
   </body>
+  <!-- Main Body End -->
 </html>
