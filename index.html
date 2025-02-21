@@ -16,11 +16,21 @@
   </head>
   <!-- Main Body Start -->
   <body>
-    <!-- Navbar Start -->
-    <nav class="navbar">
+    <!-- Header Start -->
+    <nav class="header">
       <div class="logo">tokogadget</div>
-      <div class="search-bar">
-        <input type="text" placeholder="Cari gadget" />
+      <div class="navbar-center">
+        <div class="">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="search-bar">
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <!-- <p>cart-btn</p> -->
+          </div>
+          <input type="text" class="search-input" placeholder="cart-gadget" />
+        </div>
       </div>
       <div class="nav-icons">
         <div class="icon shopping">
@@ -37,7 +47,7 @@
         </div>
       </div>
     </nav>
-    <!-- Navbar End -->
+    <!-- Header End -->
 
     <!-- Main Content Start -->
     <div class="main-content">
@@ -55,7 +65,7 @@
       <div class="product-container">
         <!-- Image Gallery Start -->
         <div class="image-gallery">
-          <div class="thumbnail">
+          <div class="thumbnail thumb">
             <img src="images/imac_m1.webp" alt="Thumbnail 1" />
           </div>
           <div class="thumbnail">
@@ -126,7 +136,7 @@
           </p>
           <a href="#" class="read-more">Lihat Selengkapnya</a>
         </div>
-        <!-- Single Product Details Start -->
+        <!-- Single Product Details End -->
 
         <!-- First Cart Section Start -->
         <div class="cart-container">
@@ -137,7 +147,7 @@
               <div class="quantity-selector">
                 <button>-</button>
                 <input type="text" value="1" readonly />
-                <button>+</button>
+                <button class="plus">+</button>
               </div>
             </div>
             <p class="total">
